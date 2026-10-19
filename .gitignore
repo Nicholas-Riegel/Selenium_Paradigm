@@ -1,0 +1,38 @@
+COMMANDS.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+target/
+*.class
+*.jar
+*.war
+
+# Maven
+.classpath
+.project
+.settings/
+
+# Selenium/WebDriver
+*.log
+chromedriver
+geckodriver
+
+# Dependencies
+.m2/
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+
+# Test reports
+test-output/
