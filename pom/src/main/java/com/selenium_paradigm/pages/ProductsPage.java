@@ -21,13 +21,11 @@ public class ProductsPage extends BasePage {
     public ProductsPage(WebDriver driver){
     
         super(driver);
-    
     }
 
     public boolean isLoaded(){
     
         return getText(title).equals("Products");
-    
     }
 
     public void addItemToCart(String itemName){
@@ -56,6 +54,5 @@ public class ProductsPage extends BasePage {
         click(shoppingCartLink);
     
         return new CartPage(driver);
-    
     }
 }

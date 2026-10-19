@@ -19,13 +19,11 @@ public abstract class BasePage {
         this.driver = driver;
     
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    
     }
 
     protected void click(By locator){
     
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
-    
     }
 
     protected void type(By locator, String input){
@@ -35,12 +33,10 @@ public abstract class BasePage {
         field.clear();
     
         field.sendKeys(input);
-    
     }
 
     protected String getText(By locator){
     
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
-    
     }
 }

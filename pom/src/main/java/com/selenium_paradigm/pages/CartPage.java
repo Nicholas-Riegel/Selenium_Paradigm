@@ -14,7 +14,6 @@ public class CartPage extends BasePage {
     public CartPage(WebDriver driver){
 
         super(driver);
-
     }
 
     public boolean itemIsInCart(String itemName){
@@ -26,11 +25,9 @@ public class CartPage extends BasePage {
             if (item.getText().contains(itemName)){
 
                 return true;
-
             }
         }
 
         return false;
-
     }
 }

@@ -16,7 +16,6 @@ public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver){
 
         super(driver);
-
     }
 
     public ProductsPage loginAs(String username, String password){
@@ -28,12 +27,10 @@ public class LoginPage extends BasePage {
         click(loginButton);
         
         return new ProductsPage(driver);
-
     }
 
     public String getErrorMessage(){
         
         return getText(errorMessage);
-    
     }
 }

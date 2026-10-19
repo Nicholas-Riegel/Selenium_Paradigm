@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-
 public abstract class BaseTest {
 
     private ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -41,7 +40,6 @@ public abstract class BaseTest {
 
                 driver.remove();
             }
-    
         }
     }
 

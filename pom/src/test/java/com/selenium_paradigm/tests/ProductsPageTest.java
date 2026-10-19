@@ -17,7 +17,7 @@ public class ProductsPageTest extends BaseTest {
     
             {"Sauce Labs Backpack"},
     
-            {"Sauce Labsn Bike Light"},
+            {"Sauce Labs Bike Light"},
     
             {"Sauce Labs Bolt T-Shirt"}
         };
