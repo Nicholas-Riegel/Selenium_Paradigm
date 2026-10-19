@@ -17,7 +17,6 @@ public class ProductsPage extends BasePage {
 
     private final By shoppingCartBadge = By.cssSelector("[data-test='shopping-cart-badge']");
 
-    
     public ProductsPage(WebDriver driver){
     
         super(driver);
