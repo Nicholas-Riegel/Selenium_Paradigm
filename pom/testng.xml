@@ -3,8 +3,8 @@
 
     <test name="All Tests">
         <classes>
-            <class name="com.selenium_paradigm.tests.LoginPageTest"/>
-            <class name="com.selenium_paradigm.tests.ProductsPageTest"/>
+            <class name="com.selenium_paradigm.tests.LoginTest"/>
+            <class name="com.selenium_paradigm.tests.CartTest"/>
         </classes>
     </test>
 
